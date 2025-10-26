@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>belajar page</title>
+    <style>
+         * {
+            box-sizing: border-box;
+        }
+
+        /* CSS untuk class header */
+        .header {
+            background-color: green;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Setting layout maksimal screen size */
+        @media screen and (max-width: 600px) {
+            .columnA, .columnB , .columnC {
+                width: 50%; ;
+            }
+        }
+        @media screen and (max-width: 400px) {
+            .columnA, .columnB , .columnC {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+      <!-- Header web -->
+    <div class="header">
+        <h2 style="color: white;font-size:200%">
+            SMA PLUS PGRI CIBINONG
+        </h2>
+    </div>
+
+    <!-- menu web -->
+     <div class= "nav_menu">
+        <a href= "index.html">beranda</a>
+        <a href= "studentday.html">studentday</a>
+        <a href= "#" class="active">Kopasus IT</a>
+     </div>
+    
+     <!-- konten -->
+     <div class="row">
+        <div class= "columnA">
+            <h2>ini adalah halaman kopasus-it</h2>
+            <p>
+                Kopasus IT merupakan salah satu organisasi siswa yang ada di SMA Plus PGRI Cibinong
+                dan hanya ada di SMA Plus PGRI Cibinong. Ilmu pengetahuan dan teknologi merupakan hal
+                yang paling pesat perkembangannya yang kita rasakan selama dalam dunia modern saat ini.
+                Setiap detiknya ilmu ini terus mengalami perkembangan-perkembangan yang signifikan.
+                Mempelajari teknologi saat ini telah menjadi sesuatu yang wajib bagi semua orang.
+                Sebab kemajuan teknologi saat ini menjadi salah satu syarat menggunakan alat-alat dalam
+                membantu menyelesaikan pekerjaan, tugas-tugas sekolah maupun kuliah.
+            </p>
+        </div>
+        <center>
+            <img src="gambar/images.jpg" alt="ini adalah gambar kopasus-it">
+        </center>
+    </div>
+</body>
+</html>

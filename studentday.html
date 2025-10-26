@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>belajar page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* CSS untuk class header */
+        .header {
+            background-color: green;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Setting layout maksimal screen size */
+        @media screen and (max-width: 600px) {
+            .columnA, .columnB , .columnC {
+                width: 50%; ;
+            }
+        }
+        @media screen and (max-width: 400px) {
+            .columnA, .columnB , .columnC {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+     <!-- Header web -->
+    <div class="header">
+        <h2 style="color: white;font-size:200%">
+            SMA PLUS PGRI CIBINONG
+        </h2>
+    </div>
+
+    <!-- menu web -->
+     <div class= "nav_menu">
+        <a href= "../index.html">beranda</a>
+        <a href= "#" class="active">studentday</a>
+        <a href= "kopasus-it.html">Kopasus IT</a>
+     </div>
+
+      <!-- konten -->
+     <div class="row">
+        <div class= "columnA">
+            <h2>ini adalah halaman studentday</h2>
+            <p>studentday adlah salah satu program dari SMA PLUS PGRI CIBINONG.
+               didalam studentday ini, siswa wajib memilih 1 minat nya.
+               terdapat 20 studentday yang dapat dipilih oleh siswa.
+               mulai dari yang berhubungan dengan jurusan yang terdapat di smk
+               bahkan samapi yang tidak ada di jurusan smk. program ini didsarkan atas 2 hal:
+            </p>
+        </div>
+        <ol>
+            <li>
+                <p>
+                    Teori kecerdasan majemuk (Multiple Intelligences) dari Howard Gardner yang menjelaskan
+                    bahwa setiap anak yang lahir paling tidak memiliki 7 kecerdasan (kecerdasan musik, gerak badan,
+                    logika matematika, bahasa, ruang, antar pribadi, dan intra pribadi,)kecerdasan yang menonjol
+                    untuk setiap anak tidak selalu sama dengan yang lain, dan itu realitas. Oleh karena itu tugas
+                    sekolah sebenarnya adalah melayani dan mengembangkan kecerdasan yang menonjol dari setiap anak didik.
+                    Sistem pendidikan kita yang "menyeragamkan" pelayanan terhadap semua anak didik sangat ditentang oleh teori
+                </p>
+            </li>
+            <li>
+                <p>
+                    Agar alumni SMA Plus PGRI Cibinong dapat bekerja apabila belum mampu secara ekonomi melanjutkan
+                    ke perguruan tinggi. Oleh karena itu sekolah menyiapkan 20 bidang keterampilan hidup (life skill)
+                    untuk menampung semua kecerdasan yang menonjol atau bakat yang dimiliki oloh semua anak didik.
+                    Mata pelajaran reguler yang diberikan hari senin sampai dengan Jum'at, sedangkan hari Sabtu adalah
+                    harinya siswa (student day) untuk menyalurkan kecerdasan dan bakatnya.
+                </p>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
